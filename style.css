@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #202936;
+    background: #f4f7fa;
+}
+
+.hero {
+    padding: 40px 20px;
+    text-align: center;
+    background: #023d5f;
+    color: white;
+}
+
+main {
+    width: min(800px, 92%);
+    margin: 30px auto;
+}
+
+section {
+    padding: 24px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 12px;
+    font: inherit;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+button {
+    color: white;
+    background: #023d5f;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
